@@ -40,8 +40,13 @@
         svg {
             display: inline-block;
             vertical-align: middle;
-            max-width: 100%;
         }
+        svg.w-3\.5 { width: 0.875rem; height: 0.875rem; }
+        svg.w-4 { width: 1rem; height: 1rem; }
+        svg.w-5 { width: 1.25rem; height: 1.25rem; }
+        svg.w-6 { width: 1.5rem; height: 1.5rem; }
+        svg.w-7 { width: 1.75rem; height: 1.75rem; }
+        svg.w-8 { width: 2rem; height: 2rem; }
         img {
             max-width: 100%;
             height: auto;

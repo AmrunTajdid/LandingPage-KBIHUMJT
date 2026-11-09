@@ -20,8 +20,15 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if (app()->environment('production') || str_contains(request()->url(), 'vercel.app')) {
-            URL::forceScheme('https');
+        $host = $_SERVER['HTTP_HOST'] ?? request()->header('host');
+        $isVercel = isset($_SERVER['VERCEL']) || (isset($_SERVER['HTTP_HOST']) && str_contains($_SERVER['HTTP_HOST'], 'vercel.app'));
+
+        if ($isVercel || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) || app()->environment('production')) {
+            URL::forceHttps();
+            if ($host) {
+                URL::forceRootUrl('https://' . $host);
+                URL::useAssetOrigin('https://' . $host);
+            }
         }
     }
 }
