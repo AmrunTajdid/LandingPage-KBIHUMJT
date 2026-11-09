@@ -3,21 +3,21 @@
 @section('content')
 <div class="bg-[#FAFAF9] min-h-screen">
     <!-- Header Hero Section -->
-    <section class="relative bg-gradient-to-b from-[#022c22] via-[#064e3b] to-[#043327] text-white pt-14 pb-20 md:pt-16 md:pb-24 overflow-hidden border-b border-emerald-900/60">
+    <section class="relative bg-gradient-to-b from-[#2a0508] via-[#4a070f] to-[#36050a] text-white pt-14 pb-20 md:pt-16 md:pb-24 overflow-hidden border-b border-red-950/70">
         <!-- Subtle Pattern Background -->
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div>
         <div class="absolute -top-24 -left-24 w-96 h-96 bg-[#d4af37]/15 rounded-full blur-3xl pointer-events-none"></div>
 
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <!-- Breadcrumbs -->
-            <nav class="inline-flex items-center gap-2 text-xs font-medium text-stone-300 mb-6 bg-emerald-950/70 px-4 py-1.5 rounded-full border border-emerald-800/80">
+            <nav class="inline-flex items-center gap-2 text-xs font-medium text-stone-300 mb-6 bg-red-950/70 px-4 py-1.5 rounded-full border border-red-900/80">
                 <a href="{{ route('home') }}" class="hover:text-[#d4af37] transition flex items-center gap-1">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                     </svg>
                     <span>Beranda</span>
                 </a>
-                <span class="text-emerald-600">/</span>
+                <span class="text-rose-400">/</span>
                 <span class="text-[#d4af37]">Kebijakan Privasi</span>
             </nav>
 
@@ -39,13 +39,13 @@
         <div class="bg-white rounded-3xl p-6 sm:p-10 md:p-12 shadow-xl border border-stone-200/80 space-y-10 text-slate-800">
             
             <!-- Opening Notice -->
-            <div class="p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 flex items-start gap-3.5">
-                <div class="w-8 h-8 rounded-xl bg-emerald-800 text-[#d4af37] flex items-center justify-center shrink-0 mt-0.5">
+            <div class="p-5 rounded-2xl bg-rose-50/70 border border-rose-200 flex items-start gap-3.5">
+                <div class="w-8 h-8 rounded-xl bg-[#4a070f] text-[#d4af37] flex items-center justify-center shrink-0 mt-0.5">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                     </svg>
                 </div>
-                <div class="text-xs sm:text-sm text-emerald-950 leading-relaxed">
+                <div class="text-xs sm:text-sm text-rose-950 leading-relaxed">
                     <strong>Prinsip Amanah:</strong> KBIHU Multazam Jadid At Thariq menjunjung tinggi privasi dan kehormatan data seluruh calon jamaah dan keluarga. Seluruh data yang Anda percayakan kepada kami hanya digunakan untuk keperluan bimbingan ibadah haji dan pemrosesan paket umrah resmi, dengan kepatuhan penuh terhadap <strong>UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)</strong> serta regulasi Kementerian Agama Republik Indonesia.
                 </div>
             </div>
@@ -53,7 +53,7 @@
             <!-- Section 1: Pengelola Data -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">1</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">1</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Identitas Pengelola Data</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9 space-y-2">
@@ -72,7 +72,7 @@
             <!-- Section 2: Data yang Dikumpulkan -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">2</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">2</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Kategori Data Pribadi yang Dikumpulkan</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9 space-y-3">
@@ -101,7 +101,7 @@
             <!-- Section 3: Tujuan Penggunaan Data -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">3</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">3</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Tujuan Pemrosesan Data Pribadi</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9 space-y-2">
@@ -119,7 +119,7 @@
             <!-- Section 4: Larangan Penjualan Data & Pembagian Pihak Ketiga -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">4</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">4</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Kerahasiaan & Kemitraan Terpercaya</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9 space-y-2">
@@ -140,7 +140,7 @@
             <!-- Section 5: Keamanan & Penyimpanan -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">5</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">5</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Keamanan & Masa Penyimpanan Data</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9 space-y-2">
@@ -156,7 +156,7 @@
             <!-- Section 6: Hak Jamaah -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">6</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">6</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Hak Anda Sebagai Pemilik Data</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9 space-y-2">
@@ -172,7 +172,7 @@
             <!-- Section 7: Cookie Situs -->
             <div class="space-y-3">
                 <div class="flex items-center gap-2.5">
-                    <span class="w-7 h-7 rounded-lg bg-emerald-900 text-[#d4af37] text-xs font-bold flex items-center justify-center">7</span>
+                    <span class="w-7 h-7 rounded-lg bg-[#4a070f] text-[#d4af37] text-xs font-bold flex items-center justify-center">7</span>
                     <h2 class="font-heading text-lg sm:text-xl font-bold text-slate-900">Penggunaan Cookie & Teknologi Web</h2>
                 </div>
                 <div class="text-sm text-slate-700 leading-relaxed pl-9">
@@ -184,7 +184,7 @@
 
             <!-- Section 8: Hubungi Kami -->
             <div class="pt-6 border-t border-stone-200">
-                <div class="rounded-2xl bg-gradient-to-br from-[#064e3b] to-[#022c22] p-6 sm:p-8 text-white flex flex-col sm:flex-row items-center justify-between gap-6">
+                <div class="rounded-2xl bg-gradient-to-br from-[#4a070f] to-[#200406] p-6 sm:p-8 text-white flex flex-col sm:flex-row items-center justify-between gap-6">
                     <div class="space-y-2 text-center sm:text-left">
                         <span class="text-xs font-semibold uppercase tracking-wider text-[#d4af37]">Ada Pertanyaan Terkait Data Anda?</span>
                         <h3 class="font-heading text-lg sm:text-xl font-bold">Layanan Pengaduan & Informasi Privasi</h3>
@@ -195,7 +195,7 @@
                     <div class="shrink-0">
                         <a href="https://wa.me/{{ $kbihu['contact']['phone_wa'] }}?text={{ urlencode('Assalamu\'alaikum, saya ingin bertanya perihal kebijakan privasi & data pendaftaran di KBIHU Multazam Jadid At Thariq') }}" 
                            target="_blank"
-                           class="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-xs font-bold text-emerald-950 bg-gradient-to-r from-[#f5d97a] via-[#d4af37] to-[#c59e2b] hover:from-[#fae498] hover:to-[#dfb536] shadow-lg transition">
+                           class="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-xs font-bold text-[#2a0508] bg-gradient-to-r from-[#f5d97a] via-[#d4af37] to-[#c59e2b] hover:from-[#fae498] hover:to-[#dfb536] shadow-lg transition">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
                                 <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
                             </svg>
@@ -207,7 +207,7 @@
 
             <!-- Back to Home Link -->
             <div class="text-center pt-2">
-                <a href="{{ route('home') }}" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 transition">
+                <a href="{{ route('home') }}" class="inline-flex items-center gap-1.5 text-xs font-semibold text-rose-950 hover:text-red-900 transition">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                     </svg>

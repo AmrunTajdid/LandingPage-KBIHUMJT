@@ -3,7 +3,7 @@
         
         <!-- Header -->
         <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold tracking-wide border border-emerald-200/60">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-50 text-rose-950 text-xs font-semibold tracking-wide border border-rose-200/60">
                 <span class="w-1.5 h-1.5 rounded-full bg-[#d4af37]"></span>
                 <span>Kemudahan Proses</span>
             </div>
@@ -23,7 +23,7 @@
             <!-- Step 1 -->
             <div class="bg-[#FAFAF9] rounded-3xl p-7 border border-stone-200 relative flex flex-col justify-between">
                 <div>
-                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4a070f] text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
                         1
                     </div>
                     <h3 class="font-serif-title text-lg font-bold text-slate-900 mb-2">
@@ -41,7 +41,7 @@
             <!-- Step 2 -->
             <div class="bg-[#FAFAF9] rounded-3xl p-7 border border-stone-200 relative flex flex-col justify-between">
                 <div>
-                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4a070f] text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
                         2
                     </div>
                     <h3 class="font-serif-title text-lg font-bold text-slate-900 mb-2">
@@ -59,7 +59,7 @@
             <!-- Step 3 -->
             <div class="bg-[#FAFAF9] rounded-3xl p-7 border border-stone-200 relative flex flex-col justify-between">
                 <div>
-                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4a070f] text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
                         3
                     </div>
                     <h3 class="font-serif-title text-lg font-bold text-slate-900 mb-2">
@@ -77,7 +77,7 @@
             <!-- Step 4 -->
             <div class="bg-[#FAFAF9] rounded-3xl p-7 border border-stone-200 relative flex flex-col justify-between">
                 <div>
-                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4a070f] text-[#d4af37] font-serif-title font-bold text-xl flex items-center justify-center mb-6 shadow-md">
                         4
                     </div>
                     <h3 class="font-serif-title text-lg font-bold text-slate-900 mb-2">

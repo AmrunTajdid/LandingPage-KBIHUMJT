@@ -1,7 +1,7 @@
-<footer class="bg-[#022c22] text-stone-300 border-t border-emerald-900/60 pt-16 pb-12">
+<footer class="bg-[#200406] text-stone-300 border-t border-red-950/70 pt-16 pb-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-emerald-900/40">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-red-950/50">
             
             <!-- Col 1: Identity & Logo -->
             <div class="lg:col-span-5 space-y-4">
@@ -23,7 +23,7 @@
 
                 <!-- Partnership Tag in Footer -->
                 <div class="pt-2">
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs bg-emerald-900/50 text-[#d4af37] border border-emerald-800">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs bg-red-950/60 text-[#d4af37] border border-red-900/60">
                         <span>🤝 Mitra Resmi Umrah: PT Khairah Berkah Mandiri (PPIU)</span>
                     </span>
                 </div>
@@ -31,7 +31,7 @@
 
             <!-- Col 2: Quick Links -->
             <div class="lg:col-span-3 space-y-4">
-                <h4 class="text-xs font-bold text-white uppercase tracking-wider border-b border-emerald-800 pb-2">
+                <h4 class="text-xs font-bold text-white uppercase tracking-wider border-b border-red-900/60 pb-2">
                     Navigasi Cepat
                 </h4>
                 <ul class="space-y-2 text-xs text-stone-400">
@@ -48,7 +48,7 @@
 
             <!-- Col 3: Official Office Address -->
             <div class="lg:col-span-4 space-y-4">
-                <h4 class="text-xs font-bold text-white uppercase tracking-wider border-b border-emerald-800 pb-2">
+                <h4 class="text-xs font-bold text-white uppercase tracking-wider border-b border-red-900/60 pb-2">
                     Sekretariat KBIHU
                 </h4>
                 <p class="text-xs text-stone-400 leading-relaxed">
@@ -61,7 +61,7 @@
                 <div class="pt-2">
                     <a href="https://wa.me/{{ $kbihu['contact']['phone_wa'] }}?text={{ urlencode('Assalamu\'alaikum, saya ingin bertanya informasi pendaftaran di KBIHU Multazam Jadid At Thariq') }}" 
                        target="_blank" 
-                       class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold text-emerald-950 bg-[#d4af37] hover:bg-amber-400 transition">
+                       class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold text-[#2a0508] bg-[#d4af37] hover:bg-amber-400 transition">
                         <span>Chat WhatsApp Admin</span>
                     </a>
                 </div>

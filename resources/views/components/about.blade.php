@@ -10,7 +10,7 @@
                     <!-- Main Story Card -->
                     <div class="bg-white rounded-3xl p-7 sm:p-8 shadow-xl shadow-stone-200/60 border border-stone-200/80 relative overflow-hidden">
                         <div class="w-12 h-1 bg-[#d4af37] mb-6 rounded-full"></div>
-                        <span class="text-xs font-bold uppercase tracking-wider text-emerald-800">Komitmen Layanan</span>
+                        <span class="text-xs font-bold uppercase tracking-wider text-rose-900">Komitmen Layanan</span>
                         <h3 class="font-serif-title text-2xl font-bold text-slate-900 mt-1 mb-4">
                             Mendampingi Ibadah Sebagai Amanah Umat
                         </h3>
@@ -18,13 +18,13 @@
                             KBIHU Multazam Jadid At Thariq didirikan dengan satu niat utama: mengantarkan para tamu Allah (dhuyufurrahman) agar dapat menjalankan setiap rukun, wajib, dan sunnah ibadah haji serta umrah dengan pemahaman ilmu yang mendalam, hati yang ikhlas, dan rasa tenang.
                         </p>
                         
-                        <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-100 flex items-start space-x-3.5">
-                            <div class="w-8 h-8 rounded-full bg-emerald-800 text-[#d4af37] flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                        <div class="p-4 rounded-2xl bg-rose-50/70 border border-rose-200/60 flex items-start space-x-3.5">
+                            <div class="w-8 h-8 rounded-full bg-[#4a070f] text-[#d4af37] flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
                                 ✓
                             </div>
                             <div>
-                                <h4 class="text-xs font-bold text-emerald-950 uppercase">Legalitas Terjamin</h4>
-                                <p class="text-xs text-emerald-900/80 mt-0.5">
+                                <h4 class="text-xs font-bold text-red-950 uppercase">Legalitas Terjamin</h4>
+                                <p class="text-xs text-rose-950/80 mt-0.5">
                                     Beroperasi secara resmi di bawah binaan Kementerian Agama Republik Indonesia dengan bimbingan bersertifikat.
                                 </p>
                             </div>
@@ -32,7 +32,7 @@
                     </div>
 
                     <!-- Partnership Card Highlight -->
-                    <div class="bg-gradient-to-r from-emerald-900 to-[#064e3b] rounded-3xl p-6 text-white shadow-xl shadow-emerald-950/20 border border-emerald-700/60 flex items-center space-x-4">
+                    <div class="bg-gradient-to-r from-[#2a0508] via-[#4a070f] to-[#36050a] rounded-3xl p-6 text-white shadow-xl shadow-red-950/20 border border-red-900/60 flex items-center space-x-4">
                         <div class="w-12 h-12 rounded-2xl bg-white/10 border border-[#d4af37]/40 flex items-center justify-center text-[#d4af37] shrink-0">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
@@ -53,8 +53,8 @@
             <!-- Right Side: Explanation, Vision, & Points -->
             <div class="lg:col-span-7 order-1 lg:order-2 space-y-6">
                 
-                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-900 text-xs font-semibold tracking-wide">
-                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-700"></span>
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-100/80 text-rose-950 text-xs font-semibold tracking-wide border border-rose-200">
+                    <span class="w-1.5 h-1.5 rounded-full bg-rose-800"></span>
                     <span>Tentang KBIHU Multazam Jadid At Thariq</span>
                 </div>
 

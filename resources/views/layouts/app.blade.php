@@ -53,7 +53,7 @@
         }
     </style>
 </head>
-<body class="font-body bg-[#FAFAF9] text-slate-800 antialiased selection:bg-[#d4af37]/30 selection:text-emerald-950">
+<body class="font-body bg-[#FAFAF9] text-slate-800 antialiased selection:bg-[#d4af37]/30 selection:text-red-950">
 
     <!-- Topbar Info -->
     @include('components.topbar')

@@ -10,8 +10,9 @@
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-heading: 'Cinzel', 'Playfair Display', Georgia, serif;
 
-    --color-brand-emerald: #064e3b;
-    --color-brand-dark: #022c22;
+    --color-brand-red: #4a070f;
+    --color-brand-dark: #2a0508;
+    --color-brand-deep: #200406;
     --color-brand-gold: #d4af37;
     --color-brand-gold-light: #f3d478;
     --color-brand-gold-dark: #a1781c;
@@ -26,14 +27,14 @@ html {
 
 /* Islamic Geometric Background Pattern Subtle Helper */
 .bg-islamic-pattern {
-    background-color: #064e3b;
+    background-color: #4a070f;
     background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1px, transparent 0);
     background-size: 24px 24px;
 }
 
 .bg-pattern-light {
     background-color: #fafaf9;
-    background-image: radial-gradient(rgba(6, 78, 59, 0.05) 1px, transparent 0);
+    background-image: radial-gradient(rgba(74, 7, 15, 0.05) 1px, transparent 0);
     background-size: 20px 20px;
 }
 

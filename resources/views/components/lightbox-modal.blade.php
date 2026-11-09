@@ -5,7 +5,7 @@
         <!-- Modal Header -->
         <div class="flex items-center justify-between pb-4 border-b border-stone-200">
             <div>
-                <span class="text-xs font-bold text-emerald-800 uppercase tracking-wider">Dokumen Resmi</span>
+                <span class="text-xs font-bold text-rose-950 uppercase tracking-wider">Dokumen Resmi</span>
                 <h3 class="font-serif-title text-lg sm:text-xl font-bold text-slate-900">
                     Bagan Struktur Organisasi KBIHU Multazam Jadid At Thariq
                 </h3>

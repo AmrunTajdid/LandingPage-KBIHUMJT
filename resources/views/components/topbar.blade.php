@@ -1,4 +1,4 @@
-<div class="bg-[#022c22] text-stone-300 text-xs border-b border-emerald-900/40 hidden md:block">
+<div class="bg-[#2a0508] text-stone-300 text-xs border-b border-red-950/60 hidden md:block">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex justify-between items-center">
         <!-- Lokasi & Jam Operasional -->
         <div class="flex items-center space-x-6">
@@ -19,7 +19,7 @@
 
         <!-- Partnership Pill & Direct WA -->
         <div class="flex items-center space-x-5">
-            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-emerald-900/60 text-emerald-200 border border-emerald-700/50">
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-red-950/80 text-rose-200 border border-red-800/60">
                 <span class="w-1.5 h-1.5 rounded-full bg-[#d4af37] animate-pulse"></span>
                 Mitra Resmi Umrah: PT Khairah Berkah Mandiri
             </span>

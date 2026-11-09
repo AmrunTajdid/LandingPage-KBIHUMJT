@@ -3,7 +3,7 @@
         
         <!-- Section Header -->
         <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-900 text-xs font-semibold tracking-wide">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-100 text-rose-950 text-xs font-semibold tracking-wide">
                 <span class="w-1.5 h-1.5 rounded-full bg-[#d4af37]"></span>
                 <span>Kenapa Memilih Kami?</span>
             </div>
@@ -23,8 +23,8 @@
                 <div class="bg-white rounded-3xl p-8 border border-stone-200/90 hover:border-[#d4af37] shadow-lg hover:shadow-xl transition-all duration-300 relative group overflow-hidden flex flex-col justify-between">
                     
                     <div>
-                        <!-- Icon Circle with Gold / Emerald Accent -->
-                        <div class="w-14 h-14 rounded-2xl bg-emerald-50 border border-emerald-100 text-emerald-900 group-hover:bg-emerald-900 group-hover:text-[#d4af37] flex items-center justify-center transition duration-300 mb-6 shadow-sm">
+                        <!-- Icon Circle with Gold / Elegant Red Accent -->
+                        <div class="w-14 h-14 rounded-2xl bg-rose-50 border border-rose-100 text-[#4a070f] group-hover:bg-[#4a070f] group-hover:text-[#d4af37] flex items-center justify-center transition duration-300 mb-6 shadow-sm">
                             @if($adv['icon'] === 'award')
                                 <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
@@ -53,7 +53,7 @@
                         </div>
 
                         <!-- Title -->
-                        <h3 class="font-serif-title text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-900 transition">
+                        <h3 class="font-serif-title text-xl font-bold text-slate-900 mb-3 group-hover:text-rose-950 transition">
                             {{ $adv['title'] }}
                         </h3>
 
