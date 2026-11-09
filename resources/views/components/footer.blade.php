@@ -35,13 +35,14 @@
                     Navigasi Cepat
                 </h4>
                 <ul class="space-y-2 text-xs text-stone-400">
-                    <li><a href="#beranda" class="hover:text-[#d4af37] transition">Beranda Utama</a></li>
-                    <li><a href="#tentang" class="hover:text-[#d4af37] transition">Tentang KBIHU</a></li>
-                    <li><a href="#layanan" class="hover:text-[#d4af37] transition">Bimbingan Haji Reguler</a></li>
-                    <li><a href="#layanan" class="hover:text-[#d4af37] transition">Paket Umrah Khairah Berkah</a></li>
-                    <li><a href="#pembimbing" class="hover:text-[#d4af37] transition">Profil Pembimbing Bersertifikasi</a></li>
-                    <li><a href="#struktur" class="hover:text-[#d4af37] transition">Struktur Organisasi</a></li>
-                    <li><a href="#faq" class="hover:text-[#d4af37] transition">Tanya Jawab (FAQ)</a></li>
+                    <li><a href="{{ route('home') }}#beranda" class="hover:text-[#d4af37] transition">Beranda Utama</a></li>
+                    <li><a href="{{ route('home') }}#tentang" class="hover:text-[#d4af37] transition">Tentang KBIHU</a></li>
+                    <li><a href="{{ route('home') }}#layanan" class="hover:text-[#d4af37] transition">Bimbingan Haji Reguler</a></li>
+                    <li><a href="{{ route('home') }}#layanan" class="hover:text-[#d4af37] transition">Paket Umrah Khairah Berkah</a></li>
+                    <li><a href="{{ route('home') }}#pembimbing" class="hover:text-[#d4af37] transition">Profil Pembimbing Bersertifikasi</a></li>
+                    <li><a href="{{ route('home') }}#struktur" class="hover:text-[#d4af37] transition">Struktur Organisasi</a></li>
+                    <li><a href="{{ route('home') }}#faq" class="hover:text-[#d4af37] transition">Tanya Jawab (FAQ)</a></li>
+                    <li><a href="{{ route('privacy') }}" class="text-[#d4af37] hover:underline font-medium transition">Kebijakan Privasi</a></li>
                 </ul>
             </div>
 
@@ -71,9 +72,11 @@
         <!-- Bottom Copyright -->
         <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400 gap-4">
             <p>&copy; {{ date('Y') }} KBIHU Multazam Jadid At Thariq. Seluruh hak cipta dilindungi.</p>
-            <p class="flex items-center gap-1.5">
+            <div class="flex items-center gap-4">
+                <a href="{{ route('privacy') }}" class="hover:text-[#d4af37] transition underline decoration-stone-600">Kebijakan Privasi</a>
+                <span>&bull;</span>
                 <span>Membimbing Menuju Kemabruran Ibadah Sesuai Sunnah</span>
-            </p>
+            </div>
         </div>
 
     </div>

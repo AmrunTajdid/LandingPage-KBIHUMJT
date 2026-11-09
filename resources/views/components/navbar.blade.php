@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
             <!-- Brand Logo & Title -->
-            <a href="#beranda" class="flex items-center space-x-3.5 group">
+            <a href="{{ route('home') }}" class="flex items-center space-x-3.5 group">
                 <div class="relative w-12 h-12 flex items-center justify-center transition group-hover:scale-105 duration-300">
                     <img src="{{ asset('images/logo.png') }}" alt="Logo KBIHU Multazam Jadid At Thariq" class="w-full h-full object-contain filter drop-shadow">
                 </div>
@@ -16,13 +16,13 @@
 
             <!-- Desktop Nav Links -->
             <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-stone-200">
-                <a href="#beranda" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Beranda</a>
-                <a href="#tentang" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Tentang Kami</a>
-                <a href="#layanan" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Layanan</a>
-                <a href="#pembimbing" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Pembimbing</a>
-                <a href="#keunggulan" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Keunggulan</a>
-                <a href="#faq" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">FAQ</a>
-                <a href="#kontak" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Kontak</a>
+                <a href="{{ route('home') }}#beranda" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Beranda</a>
+                <a href="{{ route('home') }}#tentang" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Tentang Kami</a>
+                <a href="{{ route('home') }}#layanan" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Layanan</a>
+                <a href="{{ route('home') }}#pembimbing" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Pembimbing</a>
+                <a href="{{ route('home') }}#keunggulan" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Keunggulan</a>
+                <a href="{{ route('home') }}#faq" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">FAQ</a>
+                <a href="{{ route('home') }}#kontak" class="hover:text-[#d4af37] transition py-1 border-b-2 border-transparent hover:border-[#d4af37]">Kontak</a>
             </nav>
 
             <!-- CTA Button -->
@@ -53,13 +53,14 @@
 
     <!-- Mobile Drawer Menu -->
     <div id="mobile-menu" class="hidden lg:hidden bg-[#043327] border-b border-emerald-800 px-4 pt-3 pb-6 space-y-2">
-        <a href="#beranda" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-white hover:bg-emerald-800">Beranda</a>
-        <a href="#tentang" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Tentang Kami</a>
-        <a href="#layanan" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Layanan</a>
-        <a href="#pembimbing" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Pembimbing</a>
-        <a href="#keunggulan" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Keunggulan</a>
-        <a href="#faq" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">FAQ</a>
-        <a href="#kontak" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Kontak</a>
+        <a href="{{ route('home') }}#beranda" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-white hover:bg-emerald-800">Beranda</a>
+        <a href="{{ route('home') }}#tentang" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Tentang Kami</a>
+        <a href="{{ route('home') }}#layanan" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Layanan</a>
+        <a href="{{ route('home') }}#pembimbing" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Pembimbing</a>
+        <a href="{{ route('home') }}#keunggulan" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Keunggulan</a>
+        <a href="{{ route('home') }}#faq" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">FAQ</a>
+        <a href="{{ route('home') }}#kontak" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-stone-200 hover:bg-emerald-800">Kontak</a>
+        <a href="{{ route('privacy') }}" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-medium text-[#d4af37] hover:bg-emerald-800">Kebijakan Privasi</a>
         <div class="pt-4">
             <a href="https://wa.me/{{ $kbihu['contact']['phone_wa'] }}?text={{ urlencode('Assalamu\'alaikum, saya ingin konsultasi pendaftaran KBIHU Multazam Jadid At Thariq') }}" 
                target="_blank" 

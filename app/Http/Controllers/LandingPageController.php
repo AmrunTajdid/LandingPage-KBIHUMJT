@@ -15,4 +15,14 @@ class LandingPageController extends Controller
 
         return view('landing', compact('kbihu'));
     }
+
+    /**
+     * Display the privacy policy page.
+     */
+    public function privacy()
+    {
+        $kbihu = config('kbihu');
+
+        return view('privacy', compact('kbihu'));
+    }
 }

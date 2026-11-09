@@ -41,4 +41,19 @@ class LandingPageTest extends TestCase
         $response->assertSee('images/logo.png');
         $response->assertSee('images/struktur-organisasi.jpg');
     }
+
+    /**
+     * Test the privacy policy page renders correctly.
+     */
+    public function test_privacy_policy_page_renders_successfully(): void
+    {
+        $response = $this->get('/kebijakan-privasi');
+
+        $response->assertStatus(200);
+        $response->assertSee('Kebijakan Privasi');
+        $response->assertSee('MULTAZAM JADID AT THARIQ');
+        $response->assertSee('PT Khairah Berkah Mandiri');
+        $response->assertSee('UU No. 27 Tahun 2022');
+        $response->assertSee('Pulogebang, Cakung, Jakarta Timur');
+    }
 }
