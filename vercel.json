@@ -32,6 +32,8 @@
     }
   ],
   "env": {
+    "APP_NAME": "KBIHU Multazam Jadid At Thariq",
+    "APP_KEY": "base64:84ihtAuqdnGrVBkXEPI1kuWC68tzPmt2cVWEasz4VVg=",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "APP_CONFIG_CACHE": "/tmp/config.php",
