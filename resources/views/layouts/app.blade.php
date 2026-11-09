@@ -37,6 +37,15 @@
         .font-body {
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
+        svg {
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body class="font-body bg-[#FAFAF9] text-slate-800 antialiased selection:bg-[#d4af37]/30 selection:text-emerald-950">

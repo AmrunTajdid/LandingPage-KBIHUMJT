@@ -1,7 +1,15 @@
 <?php
 
-// Forward Vercel serverless requests to Laravel index.php
-// Setup writable storage directory in /tmp
+// Force HTTPS when running behind Vercel's SSL proxy
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+    $_SERVER['HTTPS'] = 'on';
+    $_SERVER['SERVER_PORT'] = 443;
+} elseif (isset($_SERVER['HTTP_HOST']) && str_contains($_SERVER['HTTP_HOST'], 'vercel.app')) {
+    $_SERVER['HTTPS'] = 'on';
+    $_SERVER['SERVER_PORT'] = 443;
+}
+
+// Setup writable storage directory in /tmp for serverless environment
 $storagePath = '/tmp/storage';
 if (!is_dir($storagePath)) {
     @mkdir($storagePath, 0755, true);

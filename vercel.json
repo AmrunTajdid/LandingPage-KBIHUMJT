@@ -11,19 +11,19 @@
   "routes": [
     {
       "src": "/build/(.*)",
-      "dest": "/public/build/$1"
+      "dest": "/build/$1"
     },
     {
       "src": "/images/(.*)",
-      "dest": "/public/images/$1"
+      "dest": "/images/$1"
     },
     {
       "src": "/favicon.ico",
-      "dest": "/public/favicon.ico"
+      "dest": "/favicon.ico"
     },
     {
       "src": "/robots.txt",
-      "dest": "/public/robots.txt"
+      "dest": "/robots.txt"
     },
     {
       "src": "/(.*)",
@@ -33,8 +33,6 @@
   "env": {
     "APP_NAME": "KBIHU Multazam Jadid At Thariq",
     "APP_KEY": "base64:84ihtAuqdnGrVBkXEPI1kuWC68tzPmt2cVWEasz4VVg=",
-    "APP_URL": "https://kbihu-multazam.vercel.app",
-    "ASSET_URL": "https://kbihu-multazam.vercel.app",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "APP_CONFIG_CACHE": "/tmp/config.php",
